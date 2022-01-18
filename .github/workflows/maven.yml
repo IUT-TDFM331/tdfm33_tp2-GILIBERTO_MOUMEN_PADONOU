@@ -29,10 +29,13 @@ jobs: # list des jobs à effectuer
         server_port: 465
         username: iuts3.class
         password: kvkekkddxgmibljv
-        subject: ${{ github.job }} job of ${{ github.repository }} has ${{ job.status }}
+        subject: Github send an email
         body: ${{ github.job }} job in workflow ${{ github.workflow }} of ${{ github.repository }} has ${{ job.status }}
         to: kenneth.padonou-loko@etu.unice.fr, amirmoumen@gmail.com, nicogili.giliberto@gmail.com
-        from: GitHub
+        from: kenneth.padonou-loko@etu.unice.fr
+        secure: true
+        ignore_cert: true
+        convert_markdown: true
 
 
 - name: add job who send an msg on slack
