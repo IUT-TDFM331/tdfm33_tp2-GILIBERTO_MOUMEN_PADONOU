@@ -16,3 +16,6 @@ Suite à la publication du fichier .yml nous obtenons cette erreur :
 
 3.B.9
 Il y a une erreur lors des tests. Une des fonctions renvoie false au lieu de true.
+
+3.B.13
+-Désormais la compilation des tests est prise en compte,l'erreur du test est affichée.
