@@ -8,3 +8,6 @@ Les tests ne fonctionnent plus, car les lignes que l'on a rajouté sont en dehor
 
 3.A.4 : 
 Les erreurs sont également vu par les autres utilisateurs.
+
+
+![image](https://user-images.githubusercontent.com/32524670/150026865-e437be13-bb5a-4f6b-9d32-241d19407e2f.png)
