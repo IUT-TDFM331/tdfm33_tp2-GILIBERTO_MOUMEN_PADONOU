@@ -65,8 +65,8 @@ class SortAlgorithmsTest {
         //Forget to sort the array :
         //SortAlgorithms.bubbleSort(input);
         int valueToTest = input[input.length / 2];
-        assertTrue(input[0] <= valueToTest);
-        assertTrue(valueToTest <= input[input.length - 1]);
+        assertTrue(input[0] >= valueToTest);
+        assertTrue(valueToTest >= input[input.length - 1]);
     }
 
     void testSortingAlgorithm(Integer[] input) {
