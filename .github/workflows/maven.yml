@@ -31,5 +31,14 @@ jobs: # list des jobs à effectuer
         password: kvkekkddxgmibljv
         subject: ${{ github.job }} job of ${{ github.repository }} has ${{ job.status }}
         body: ${{ github.job }} job in workflow ${{ github.workflow }} of ${{ github.repository }} has ${{ job.status }}
-        to: kenneth.padonou-loko@etu.unice.fr, amir.mou-men@etu.unice.fr, nicolas.giliberto@etu.unice.fr
+        to: kenneth.padonou-loko@etu.unice.fr, amirmoumen@gmail.com, nicogili.giliberto@gmail.com
         from: GitHub
+
+
+- name: add job who send an msg on slack
+      if: always()
+      id: slack
+      uses: slackapi/slack-github-action@v1.16.0
+      webhook: https://hooks.slack.com/services/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
+      env:
+        SLACK_WEBHOOK_URL: https://hooks.slack.com/services/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
