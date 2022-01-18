@@ -6,3 +6,5 @@ Les tests prennent autant de temps en raison de la taille du tableau. Ce dernier
 3.A.2 :
 Les tests ne fonctionnent plus, car les lignes que l'on a rajouté sont en dehors des accolades.
 
+3.A.4 : 
+Les erreurs sont également vu par les autres utilisateurs.
