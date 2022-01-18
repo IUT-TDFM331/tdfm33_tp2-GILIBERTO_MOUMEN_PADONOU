@@ -15,4 +15,4 @@ Suite à la publication du fichier .yml nous obtenons cette erreur :
 ![image](https://user-images.githubusercontent.com/32524670/150026865-e437be13-bb5a-4f6b-9d32-241d19407e2f.png)
 
 3.B.9
-Il y a une erreur lors des tests, une des fonctions renvoie false au lieu de true.
+Il y a une erreur lors des tests. Une des fonctions renvoie false au lieu de true.
