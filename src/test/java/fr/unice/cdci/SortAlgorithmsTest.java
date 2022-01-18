@@ -63,10 +63,10 @@ class SortAlgorithmsTest {
     void badTest() {
         Integer[] input = new Integer[]{1, 3, 5, -3, 15, Integer.MAX_VALUE};
         //Forget to sort the array :
-        //SortAlgorithms.bubbleSort(input);
+        SortAlgorithms.bubbleSort(input);
         int valueToTest = input[input.length / 2];
-        assertTrue(input[0] >= valueToTest);
-        assertTrue(valueToTest >= input[input.length - 1]);
+        assertTrue(input[0] <= valueToTest);
+        assertTrue(valueToTest <= input[input.length - 1]);
     }
 
     void testSortingAlgorithm(Integer[] input) {
